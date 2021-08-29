@@ -1,0 +1,42 @@
+/* NavbarStyling */
+.top{
+  background-color: #1A1A1D;
+}
+.topelement{
+  margin-left:20px;
+  margin-right:20px;
+}
+.brname{
+  color:#c30735;
+  margin-left:45px;
+}
+.brname:hover{
+    color:#950740;
+}
+.butcol{
+  margin-top: 5px;
+  background-color:#c30735;
+  border: none;
+}
+.nav2{
+    background-color: #1A1A1D;
+}
+a{
+    text-decoration:none;
+    color:#c30735;
+
+}
+
+.list1{
+    display:inline-block;
+    float:left;
+    margin-left:10px;
+    margin-right:10px;
+}
+.list2{
+    display:inline-block;
+   float:right;
+  margin-left:10px;
+    margin-right:10px;
+    text-decoration:none;
+}
