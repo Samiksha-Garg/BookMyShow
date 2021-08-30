@@ -34,39 +34,39 @@
 
                 <div class="container">
                   <div class="row row-cols-9">
-                    <div class="col no-padding-margin"><img src="images/gateway_of_india.svg" class="city-image" />
-                      <p class="city-name no-padding-margin" style="position : absolute; left : 20px"> Mumbai </p>
+                  <div id="Mumbai" class="city-dropdown col no-padding-margin"><img id="Mumbai-img" src="images/Mumbai.svg" class="city-image" />
+                      <p id="Mumbai-tag" class="city-name no-padding-margin" style="position : absolute; left : 20px"> Mumbai </p>
                     </div>
-                    <div class="col no-padding-margin"><img src="images/india_gate.svg" class="city-image" />
-                      <p class="no-padding-margin city-name" style="position : absolute; left : 170px"> NCR </p>
+                    <div id="NCR" class="city-dropdown col no-padding-margin active-city"><img id="NCR-img" src="images/NCR-blue.svg" class="city-image" />
+                      <p id="NCR-tag" class="no-padding-margin city-name" style="position : absolute; left : 170px"> NCR </p>
                     </div>
-                    <div class="col no-padding-margin"><img src="images/bengaluru.svg" class="city-image" />
-                      <p class="no-padding-margin city-name " style="position : absolute; left : 280px"> Bengaluru </p>
+                    <div id="Bengaluru" class="city-dropdown col no-padding-margin"><img id="Bengaluru-img" src="images/Bengaluru.svg" class="city-image" />
+                      <p id="Bengaluru-tag" class="no-padding-margin city-name " style="position : absolute; left : 280px"> Bengaluru </p>
                     </div>
-                    <div class="col no-padding-margin"><img src="images/charminar.svg" class="city-image" />
-                      <p class="no-padding-margin city-name" style="position : absolute; left : 415px"> Hyderabad </p>
+                    <div id="Hyderabad" class="city-dropdown col no-padding-margin"><img id="Hyderabad-img" src="images/Hyderabad.svg" class="city-image" />
+                      <p id="Hyderabad-tag" class="no-padding-margin city-name" style="position : absolute; left : 415px"> Hyderabad </p>
                     </div>
-                    <div class="col no-padding-margin"><img src="images/jhultaminar.svg" class="city-image" />
-                      <p class="no-padding-margin city-name" style="position : absolute; left : 545px"> Ahemdabad </p>
+                    <div id="Ahemdabad" class="city-dropdown col no-padding-margin"><img id="Ahemdabad-img" src="images/Ahemdabad.svg" class="city-image" />
+                      <p id="Ahemdabad-tag" class="no-padding-margin city-name" style="position : absolute; left : 545px"> Ahemdabad </p>
                     </div>
-                    <div class="col no-padding-margin"><img src="images/chandigarh.svg" class="city-image" />
-                      <p class="no-padding-margin city-name" style="position : absolute; left : 680px"> Chandigarh </p>
+                    <div id="Chandigarh" class="city-dropdown col no-padding-margin"><img id="Chandigarh-img" src="images/Chandigarh.svg" class="city-image" />
+                      <p id="Chandigarh-tag" class="no-padding-margin city-name" style="position : absolute; left : 680px"> Chandigarh </p>
                     </div>
-                    <div class="col no-padding-margin"><img src="images/chennai.svg" class="city-image" />
-                      <p class="no-padding-margin city-name" style="position : absolute; left : 820px"> Chennai</p>
+                    <div id="Chennai" class="city-dropdown col no-padding-margin"><img id="Chennai-img" src="images/Chennai.svg" class="city-image" />
+                      <p id="Chennai-tag" class="no-padding-margin city-name" style="position : absolute; left : 820px"> Chennai</p>
                     </div>
-                    <div class="col no-padding-margin"><img src="images/pune.svg" class="city-image" />
-                      <p class="no-padding-margin city-name" style="position : absolute; left : 965px"> Pune </p>
+                    <div id="Pune" class="city-dropdown col no-padding-margin"><img id="Pune-img" src="images/Pune.svg" class="city-image" />
+                      <p id="Pune-tag" class="no-padding-margin city-name" style="position : absolute; left : 965px"> Pune </p>
                     </div>
-                    <div class="col no-padding-margin"><img src="images/kolkata.svg" class="city-image" />
-                      <p class="no-padding-margin city-name" style="position : absolute; left : 1090px"> Kolkata </p>
+                    <div id="Kolkata" class="city-dropdown col no-padding-margin"><img id="Kolkata-img" src="images/Kolkata.svg" class="city-image" />
+                      <p id="Kolkata-tag" class="no-padding-margin city-name" style="position : absolute; left : 1090px"> Kolkata </p>
                     </div>
                   </div>
                 </div>
                 </p>
               </li>
 
-              <li><a class="dropdown-item text-center" href="#" style="color : #c30735; margin-top : 50px;">View All Cities</a></li>
+              <li><p class="dropdown-item text-center" style="color : #c30735; margin-top : 50px;">View All Cities</p></li>
             </ul>
           </li>
           <li class="topelement">
@@ -157,6 +157,9 @@
     </button>
 
   </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <script src="index.js" charset="utf-8"></script>
 </body>
 
 </html>

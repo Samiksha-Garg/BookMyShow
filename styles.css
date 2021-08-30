@@ -68,6 +68,10 @@ a{
   color: #515a5f;
 }
 
+.city-hovered-name {
+  color: black;
+}
+
 .no-padding-margin {
   padding: 0;
   margin: 0;
