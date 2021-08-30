@@ -73,6 +73,22 @@ a{
   margin: 0;
 }
 
+.dropdown-menu .search-city{
+  width: 97%;
+  margin: 2% 1.5%;
+  border: 1px solid black;
+}
+
+ .search-city input{
+   outline: none;
+   border: none;
+   width: 98%;
+ }
+
+ .search-city input:focus {
+   outline: none;
+ }
+
 /* ******************Top Carousel ****************/
 
 .carousel-control-prev-icon {
