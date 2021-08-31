@@ -50,9 +50,9 @@ a{
 }
 
 .dropdown-menu-center {
-  -webkit-transform: translate(-95%, 0);
-  -o-transform: translate(-95%, 0);
-  transform: translate(-95%, 0);
+  -webkit-transform: translate(-90%, 0);
+  -o-transform: translate(-90%, 0);
+  transform: translate(-90%, 0);
 }
 
 .city-image {
@@ -92,6 +92,55 @@ a{
  .search-city input:focus {
    outline: none;
  }
+
+ .pointer-cursor{
+   cursor: pointer;
+ }
+
+ .other-cities {
+   padding: 0 50px;
+   max-height: 120px;
+   overflow-y: auto;
+   overflow-x: hidden;
+ }
+
+ .other-city-text {
+   color: #515a5f;
+   font-size: 12px;
+ }
+
+ .other-city-text:hover{
+   cursor: pointer;
+   color: black;
+ }
+
+ .other-cities::-webkit-scrollbar {
+  display: none;
+}
+
+.more-cities, .hide-cities {
+  color : #c30735;
+  margin-top : 50px;
+}
+
+.more-cities-hover:hover {
+  color : #c30735;
+  cursor: pointer;
+}
+
+.opened-more-cities {
+  color: black;
+}
+
+.hide-cities:hover {
+  color : #c30735;
+  cursor: pointer;
+}
+
+.invisible{
+  visibility: hidden;
+  display: none;
+}
 
 /* ******************Top Carousel ****************/
 
