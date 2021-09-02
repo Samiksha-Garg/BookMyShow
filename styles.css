@@ -178,3 +178,46 @@ a{
   top: 0;
   display: block;
 }
+
+/* Premiere */
+#premiere{
+  color: #fff;
+  overflow: hidden;
+}
+#premiere-title{
+  max-width: 100%;
+}
+
+.premiere-main{
+  padding-top: 2%;
+}
+
+.header-content{
+  padding-top: 2%;
+  padding-left: 2%;
+}
+
+.prem-img{
+  height : 70%;
+  max-width: 90%;
+  border-radius: 5px;
+}
+
+.card-prem:first-child{
+  padding-left: 2.5%;
+}
+
+.card-prem{
+  border: none;
+  border-radius: 0;
+}
+
+.prem-card-text{
+  color: #fff;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+  width: 2%;
+  margin-top: 12%;
+}
