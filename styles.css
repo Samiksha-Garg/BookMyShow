@@ -179,6 +179,45 @@ a{
   display: block;
 }
 
+/* *******************Best of Entertainment **************************/
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#best {
+  margin: 3% 7%;
+}
+
+#banner {
+  width: auto;
+}
+
+.best-title {
+  word-break: break-word;
+  color: rgb(51, 51, 51);
+  font-family: "Roboto", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 1.17;
+  margin-top: 5%;
+}
+
+/* .carousel-control-next{
+  right: -96px;
+}
+
+.carousel-control-prev{
+  left: -96px;
+} */
+
+.black-icon{
+  color: black;
+}
+
 /* Premiere */
 #premiere{
   color: #fff;
@@ -221,3 +260,4 @@ a{
   width: 2%;
   margin-top: 12%;
 }
+
