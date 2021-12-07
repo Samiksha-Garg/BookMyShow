@@ -261,3 +261,52 @@ a{
   margin-top: 12%;
 }
 
+/* *******************Movie Cards **************************/
+
+.movieImage {
+  /* width: 15%; */
+  width: 200px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+.movieText h4{
+  margin-top: 2px;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.movieText h6 {
+  font-weight: 100;
+  font-size: 15px;
+  color: grey;
+  margin-bottom: 5px;
+}
+
+.movieCard {
+  margin-top: 50px;
+}
+
+.region h2 {
+  margin-left: 5%;
+  font-weight:  bold;
+  font-size:   20px;
+}
+
+.lang {
+  margin-left: 5%;
+}
+
+.languages {
+  background-color: white;
+  color: #950740;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+  margin-right: 10px;
+  font-size: 12px;
+}
