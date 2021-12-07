@@ -287,3 +287,26 @@ a{
 .movieCard {
   margin-top: 50px;
 }
+
+.region h2 {
+  margin-left: 5%;
+  font-weight:  bold;
+  font-size:   20px;
+}
+
+.lang {
+  margin-left: 5%;
+}
+
+.languages {
+  background-color: white;
+  color: #950740;
+  border: 1px solid grey;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 30px;
+  margin-right: 10px;
+  font-size: 12px;
+}
